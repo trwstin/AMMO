@@ -2,6 +2,7 @@ import pandas as pd
 import numpy as np
 import random
 import math
+import openpyxl
 
 def clean_ads_data(data):
     ads = pd.read_excel(data, sheet_name='ads dimension (dim table)', header=1)
