@@ -1,7 +1,8 @@
+import io
+import base64
 from dash import Input, Output
 from functions import *
 from layout import *
-import io
 
 @app.callback(
     [Output('greeting', 'children'), 
