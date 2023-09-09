@@ -1,0 +1,7 @@
+io
+base64
+numpy
+pandas
+dash
+gunicorn
+Werkzeug
